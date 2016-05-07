@@ -196,9 +196,10 @@ h1 {
 }
 
 .comments{
+  background: white;
 
 }
 .comments-text{
-  color: white;
+  color: blue;
   height: 30px;
 }
