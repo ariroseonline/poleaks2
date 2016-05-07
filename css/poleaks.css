@@ -98,7 +98,7 @@ h1 {
 }
 
 .cursor {
-	display: block;
+	display: none;
   position  : absolute;
   z-index   : 10000;
   width     : 40px;
@@ -107,9 +107,9 @@ h1 {
   background-size: 40px;
 }
 
-/*.leak-overlay-content:hover .cursor {
+.leak-overlay-content:hover .cursor {
 	display: block;
-}*/
+}
 
 .leak-overlay-content:hover .triangle-right {
 	border-left-color: #2200F8;
